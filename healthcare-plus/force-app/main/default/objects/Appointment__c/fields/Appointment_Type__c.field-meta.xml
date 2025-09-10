@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_Type__c</fullName>
+    <label>Appointment Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Patient Visit</fullName>
+                <default>false</default>
+                <label>New Patient Visit</label>
+            </value>
+            <value>
+                <fullName>Follow-Up Visit</fullName>
+                <default>false</default>
+                <label>Follow-Up Visit</label>
+            </value>
+            <value>
+                <fullName>Annual Physical / Wellness Exam</fullName>
+                <default>false</default>
+                <label>Annual Physical / Wellness Exam</label>
+            </value>
+            <value>
+                <fullName>Consultation</fullName>
+                <default>false</default>
+                <label>Consultation</label>
+            </value>
+            <value>
+                <fullName>Emergency Visit</fullName>
+                <default>false</default>
+                <label>Emergency Visit</label>
+            </value>
+            <value>
+                <fullName>Telehealth / Virtual Visit</fullName>
+                <default>false</default>
+                <label>Telehealth / Virtual Visit</label>
+            </value>
+            <value>
+                <fullName>Lab Test / Diagnostic Test</fullName>
+                <default>false</default>
+                <label>Lab Test / Diagnostic Test</label>
+            </value>
+            <value>
+                <fullName>Imaging / Radiology (X-ray, MRI, CT, Ultrasound)</fullName>
+                <default>false</default>
+                <label>Imaging / Radiology (X-ray, MRI, CT, Ultrasound)</label>
+            </value>
+            <value>
+                <fullName>Procedure / Minor Surgery</fullName>
+                <default>false</default>
+                <label>Procedure / Minor Surgery</label>
+            </value>
+            <value>
+                <fullName>Therapy Session (Physical, Occupational, Speech)</fullName>
+                <default>false</default>
+                <label>Therapy Session (Physical, Occupational, Speech)</label>
+            </value>
+            <value>
+                <fullName>Prenatal Visit</fullName>
+                <default>false</default>
+                <label>Prenatal Visit</label>
+            </value>
+            <value>
+                <fullName>Post-Operative Visit</fullName>
+                <default>false</default>
+                <label>Post-Operative Visit</label>
+            </value>
+            <value>
+                <fullName>Vaccination / Immunization</fullName>
+                <default>false</default>
+                <label>Vaccination / Immunization</label>
+            </value>
+            <value>
+                <fullName>Medication Management</fullName>
+                <default>false</default>
+                <label>Medication Management</label>
+            </value>
+            <value>
+                <fullName>Counseling / Behavioral Health</fullName>
+                <default>false</default>
+                <label>Counseling / Behavioral Health</label>
+            </value>
+            <value>
+                <fullName>Preventive Screening</fullName>
+                <default>false</default>
+                <label>Preventive Screening</label>
+            </value>
+            <value>
+                <fullName>Specialty Consultation (Cardiology, Oncology, etc.)</fullName>
+                <default>false</default>
+                <label>Specialty Consultation (Cardiology, Oncology, etc.)</label>
+            </value>
+            <value>
+                <fullName>Check-In / Triage</fullName>
+                <default>false</default>
+                <label>Check-In / Triage</label>
+            </value>
+            <value>
+                <fullName>Walk-In / Same-Day Visit</fullName>
+                <default>false</default>
+                <label>Walk-In / Same-Day Visit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

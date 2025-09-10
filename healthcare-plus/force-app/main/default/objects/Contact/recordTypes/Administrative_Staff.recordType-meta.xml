@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Administrative_Staff</fullName>
+    <active>true</active>
+    <description>For administrative, billing, and support staff</description>
+    <label>Administrative Staff</label>
+    <picklistValues>
+        <picklist>Available_Days__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GenderIdentity</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonbinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Languages_Spoken__c</picklist>
+        <values>
+            <fullName>Arabic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deutsch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hindi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mandarin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urdu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medical_License_State__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Mariana Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puerto Rico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Virgin Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington%2C DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mx%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Specializations__c</picklist>
+        <values>
+            <fullName>Allergy and immunology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anesthesiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dermatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnostic radiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical genetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuclear medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obstetrics and gynecology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ophthalmology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pathology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatrics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical medicine and rehabilitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preventive medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiation oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pronouns</picklist>
+        <values>
+            <fullName>He%2FHim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>He%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FHer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They%2FThem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provider_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credentialed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networked %2F In-Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Credentialed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Leave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out-of-Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provisional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restricted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revoked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unverified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provider_Type__c</picklist>
+        <values>
+            <fullName>Administrative Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licensed Practical Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Technician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered Nurse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Specialization__c</picklist>
+        <values>
+            <fullName>Addiction Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anesthesiology %28Pain Medicine%2C Critical Care%2C Pediatric%2C Cardiac%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiology %28Interventional%2C Electrophysiology%2C Heart Failure%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiothoracic Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child %26 Adolescent Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultation-Liaison Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dermatology %28Pediatric%2C Procedural%2C Dermatopathology%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency Medicine %28Medical Toxicology%2C Sports Medicine%2C Disaster Medicine%2C Pediatric EM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endocrinology%2C Diabetes %26 Metabolism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epilepsy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Medicine %28Sports Medicine%2C Geriatrics%2C Hospice %26 Palliative Care%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forensic Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gastroenterology %28Hepatology%2C Advanced Endoscopy%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geriatric Psychiatry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geriatrics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hematology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infectious Diseases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neonatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nephrology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurocritical Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuroimmunology %2F Multiple Sclerosis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuromuscular Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurosurgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obstetrics %26 Gynecology %28Maternal-Fetal Medicine%2C Gynecologic Oncology%2C Reproductive Endocrinology %26 Infertility%2C Urogynecology%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology %28Medical%2C Hematologic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ophthalmology %28Retina%2C Cornea%2C Glaucoma%2C Pediatric%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orthopedic Surgery %28Sports%2C Spine%2C Hand%2C Joint Replacement%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otolaryngology %28ENT%29 with Head %26 Neck or Pediatric focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pathology %28Forensic%2C Hematopathology%2C Cytopathology%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Cardiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Critical Care Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Endocrinology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Gastroenterology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Hematology%2FOncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Infectious Diseases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Nephrology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Pulmonology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Rheumatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic %26 Reconstructive Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulmonology %2F Critical Care %2F Sleep Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiology %28Interventional%2C Neuroradiology%2C Pediatric%2C Nuclear%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rheumatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stroke %2F Vascular Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trauma %26 Critical Care Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vascular Surgery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

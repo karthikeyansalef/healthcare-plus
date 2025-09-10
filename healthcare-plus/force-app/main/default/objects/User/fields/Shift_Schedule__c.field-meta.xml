@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shift_Schedule__c</fullName>
+    <label>Shift Schedule</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day Shift</fullName>
+                <default>false</default>
+                <label>Day Shift</label>
+            </value>
+            <value>
+                <fullName>Night Shift</fullName>
+                <default>false</default>
+                <label>Night Shift</label>
+            </value>
+            <value>
+                <fullName>Rotating</fullName>
+                <default>false</default>
+                <label>Rotating</label>
+            </value>
+            <value>
+                <fullName>On-Call</fullName>
+                <default>false</default>
+                <label>On-Call</label>
+            </value>
+            <value>
+                <fullName>Administrative Hours</fullName>
+                <default>false</default>
+                <label>Administrative Hours</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

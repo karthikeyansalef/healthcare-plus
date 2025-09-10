@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deferred</masterLabel>
+        <translation><!-- Deferred --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied</masterLabel>
+        <translation><!-- Denied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discontinued</masterLabel>
+        <translation><!-- Discontinued --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goal Met</masterLabel>
+        <translation><!-- Goal Met --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goal Not Met</masterLabel>
+        <translation><!-- Goal Not Met --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation><!-- Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needs Revision</masterLabel>
+        <translation><!-- Needs Revision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Review</masterLabel>
+        <translation><!-- Pending Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planned</masterLabel>
+        <translation><!-- Planned --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

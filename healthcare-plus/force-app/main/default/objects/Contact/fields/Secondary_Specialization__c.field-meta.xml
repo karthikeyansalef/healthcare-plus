@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Specialization__c</fullName>
+    <label>Secondary Specialization</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardiology (Interventional, Electrophysiology, Heart Failure)</fullName>
+                <default>false</default>
+                <label>Cardiology (Interventional, Electrophysiology, Heart Failure)</label>
+            </value>
+            <value>
+                <fullName>Endocrinology, Diabetes &amp; Metabolism</fullName>
+                <default>false</default>
+                <label>Endocrinology, Diabetes &amp; Metabolism</label>
+            </value>
+            <value>
+                <fullName>Gastroenterology (Hepatology, Advanced Endoscopy)</fullName>
+                <default>false</default>
+                <label>Gastroenterology (Hepatology, Advanced Endoscopy)</label>
+            </value>
+            <value>
+                <fullName>Hematology</fullName>
+                <default>false</default>
+                <label>Hematology</label>
+            </value>
+            <value>
+                <fullName>Infectious Diseases</fullName>
+                <default>false</default>
+                <label>Infectious Diseases</label>
+            </value>
+            <value>
+                <fullName>Nephrology</fullName>
+                <default>false</default>
+                <label>Nephrology</label>
+            </value>
+            <value>
+                <fullName>Oncology (Medical, Hematologic)</fullName>
+                <default>false</default>
+                <label>Oncology (Medical, Hematologic)</label>
+            </value>
+            <value>
+                <fullName>Pulmonology / Critical Care / Sleep Medicine</fullName>
+                <default>false</default>
+                <label>Pulmonology / Critical Care / Sleep Medicine</label>
+            </value>
+            <value>
+                <fullName>Rheumatology</fullName>
+                <default>false</default>
+                <label>Rheumatology</label>
+            </value>
+            <value>
+                <fullName>Geriatrics</fullName>
+                <default>false</default>
+                <label>Geriatrics</label>
+            </value>
+            <value>
+                <fullName>Pediatric Cardiology</fullName>
+                <default>false</default>
+                <label>Pediatric Cardiology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Endocrinology</fullName>
+                <default>false</default>
+                <label>Pediatric Endocrinology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Gastroenterology</fullName>
+                <default>false</default>
+                <label>Pediatric Gastroenterology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Hematology/Oncology</fullName>
+                <default>false</default>
+                <label>Pediatric Hematology/Oncology</label>
+            </value>
+            <value>
+                <fullName>Neonatology</fullName>
+                <default>false</default>
+                <label>Neonatology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Pulmonology</fullName>
+                <default>false</default>
+                <label>Pediatric Pulmonology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Rheumatology</fullName>
+                <default>false</default>
+                <label>Pediatric Rheumatology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Nephrology</fullName>
+                <default>false</default>
+                <label>Pediatric Nephrology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Infectious Diseases</fullName>
+                <default>false</default>
+                <label>Pediatric Infectious Diseases</label>
+            </value>
+            <value>
+                <fullName>Pediatric Critical Care Medicine</fullName>
+                <default>false</default>
+                <label>Pediatric Critical Care Medicine</label>
+            </value>
+            <value>
+                <fullName>Cardiothoracic Surgery</fullName>
+                <default>false</default>
+                <label>Cardiothoracic Surgery</label>
+            </value>
+            <value>
+                <fullName>Neurosurgery</fullName>
+                <default>false</default>
+                <label>Neurosurgery</label>
+            </value>
+            <value>
+                <fullName>Orthopedic Surgery (Sports, Spine, Hand, Joint Replacement)</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgery (Sports, Spine, Hand, Joint Replacement)</label>
+            </value>
+            <value>
+                <fullName>Plastic &amp; Reconstructive Surgery</fullName>
+                <default>false</default>
+                <label>Plastic &amp; Reconstructive Surgery</label>
+            </value>
+            <value>
+                <fullName>Vascular Surgery</fullName>
+                <default>false</default>
+                <label>Vascular Surgery</label>
+            </value>
+            <value>
+                <fullName>Pediatric Surgery</fullName>
+                <default>false</default>
+                <label>Pediatric Surgery</label>
+            </value>
+            <value>
+                <fullName>Trauma &amp; Critical Care Surgery</fullName>
+                <default>false</default>
+                <label>Trauma &amp; Critical Care Surgery</label>
+            </value>
+            <value>
+                <fullName>Urology</fullName>
+                <default>false</default>
+                <label>Urology</label>
+            </value>
+            <value>
+                <fullName>Otolaryngology (ENT) with Head &amp; Neck or Pediatric focus</fullName>
+                <default>false</default>
+                <label>Otolaryngology (ENT) with Head &amp; Neck or Pediatric focus</label>
+            </value>
+            <value>
+                <fullName>Ophthalmology (Retina, Cornea, Glaucoma, Pediatric)</fullName>
+                <default>false</default>
+                <label>Ophthalmology (Retina, Cornea, Glaucoma, Pediatric)</label>
+            </value>
+            <value>
+                <fullName>Epilepsy</fullName>
+                <default>false</default>
+                <label>Epilepsy</label>
+            </value>
+            <value>
+                <fullName>Neuromuscular Medicine</fullName>
+                <default>false</default>
+                <label>Neuromuscular Medicine</label>
+            </value>
+            <value>
+                <fullName>Neurocritical Care</fullName>
+                <default>false</default>
+                <label>Neurocritical Care</label>
+            </value>
+            <value>
+                <fullName>Stroke / Vascular Neurology</fullName>
+                <default>false</default>
+                <label>Stroke / Vascular Neurology</label>
+            </value>
+            <value>
+                <fullName>Neuroimmunology / Multiple Sclerosis</fullName>
+                <default>false</default>
+                <label>Neuroimmunology / Multiple Sclerosis</label>
+            </value>
+            <value>
+                <fullName>Geriatric Psychiatry</fullName>
+                <default>false</default>
+                <label>Geriatric Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Child &amp; Adolescent Psychiatry</fullName>
+                <default>false</default>
+                <label>Child &amp; Adolescent Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Addiction Psychiatry</fullName>
+                <default>false</default>
+                <label>Addiction Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Forensic Psychiatry</fullName>
+                <default>false</default>
+                <label>Forensic Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Consultation-Liaison Psychiatry</fullName>
+                <default>false</default>
+                <label>Consultation-Liaison Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Anesthesiology (Pain Medicine, Critical Care, Pediatric, Cardiac)</fullName>
+                <default>false</default>
+                <label>Anesthesiology (Pain Medicine, Critical Care, Pediatric, Cardiac)</label>
+            </value>
+            <value>
+                <fullName>Dermatology (Pediatric, Procedural, Dermatopathology)</fullName>
+                <default>false</default>
+                <label>Dermatology (Pediatric, Procedural, Dermatopathology)</label>
+            </value>
+            <value>
+                <fullName>Radiology (Interventional, Neuroradiology, Pediatric, Nuclear)</fullName>
+                <default>false</default>
+                <label>Radiology (Interventional, Neuroradiology, Pediatric, Nuclear)</label>
+            </value>
+            <value>
+                <fullName>Pathology (Forensic, Hematopathology, Cytopathology)</fullName>
+                <default>false</default>
+                <label>Pathology (Forensic, Hematopathology, Cytopathology)</label>
+            </value>
+            <value>
+                <fullName>Obstetrics &amp; Gynecology (Maternal-Fetal Medicine, Gynecologic Oncology, Reproductive Endocrinology &amp; Infertility, Urogynecology)</fullName>
+                <default>false</default>
+                <label>Obstetrics &amp; Gynecology (Maternal-Fetal Medicine, Gynecologic Oncology, Reproductive Endocrinology &amp; Infertility, Urogynecology)</label>
+            </value>
+            <value>
+                <fullName>Emergency Medicine (Medical Toxicology, Sports Medicine, Disaster Medicine, Pediatric EM)</fullName>
+                <default>false</default>
+                <label>Emergency Medicine (Medical Toxicology, Sports Medicine, Disaster Medicine, Pediatric EM)</label>
+            </value>
+            <value>
+                <fullName>Family Medicine (Sports Medicine, Geriatrics, Hospice &amp; Palliative Care)</fullName>
+                <default>false</default>
+                <label>Family Medicine (Sports Medicine, Geriatrics, Hospice &amp; Palliative Care)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

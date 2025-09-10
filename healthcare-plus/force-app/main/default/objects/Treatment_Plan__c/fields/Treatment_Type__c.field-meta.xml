@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Type__c</fullName>
+    <label>Treatment Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medication Therapy</fullName>
+                <default>false</default>
+                <label>Medication Therapy</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Radiation Therapy</fullName>
+                <default>false</default>
+                <label>Radiation Therapy</label>
+            </value>
+            <value>
+                <fullName>Chemotherapy</fullName>
+                <default>false</default>
+                <label>Chemotherapy</label>
+            </value>
+            <value>
+                <fullName>Immunotherapy</fullName>
+                <default>false</default>
+                <label>Immunotherapy</label>
+            </value>
+            <value>
+                <fullName>Physical Therapy</fullName>
+                <default>false</default>
+                <label>Physical Therapy</label>
+            </value>
+            <value>
+                <fullName>Occupational Therapy</fullName>
+                <default>false</default>
+                <label>Occupational Therapy</label>
+            </value>
+            <value>
+                <fullName>Speech Therapy</fullName>
+                <default>false</default>
+                <label>Speech Therapy</label>
+            </value>
+            <value>
+                <fullName>Respiratory Therapy</fullName>
+                <default>false</default>
+                <label>Respiratory Therapy</label>
+            </value>
+            <value>
+                <fullName>Dialysis</fullName>
+                <default>false</default>
+                <label>Dialysis</label>
+            </value>
+            <value>
+                <fullName>Psychotherapy / Counseling</fullName>
+                <default>false</default>
+                <label>Psychotherapy / Counseling</label>
+            </value>
+            <value>
+                <fullName>Cognitive Behavioral Therapy (CBT)</fullName>
+                <default>false</default>
+                <label>Cognitive Behavioral Therapy (CBT)</label>
+            </value>
+            <value>
+                <fullName>Nutritional Therapy / Diet Management</fullName>
+                <default>false</default>
+                <label>Nutritional Therapy / Diet Management</label>
+            </value>
+            <value>
+                <fullName>Pain Management</fullName>
+                <default>false</default>
+                <label>Pain Management</label>
+            </value>
+            <value>
+                <fullName>Palliative Care</fullName>
+                <default>false</default>
+                <label>Palliative Care</label>
+            </value>
+            <value>
+                <fullName>Hospice Care</fullName>
+                <default>false</default>
+                <label>Hospice Care</label>
+            </value>
+            <value>
+                <fullName>Preventive Care / Screening</fullName>
+                <default>false</default>
+                <label>Preventive Care / Screening</label>
+            </value>
+            <value>
+                <fullName>Rehabilitation</fullName>
+                <default>false</default>
+                <label>Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Alternative / Complementary Therapy (e.g., Acupuncture, Chiropractic)</fullName>
+                <default>false</default>
+                <label>Alternative / Complementary Therapy (e.g., Acupuncture, Chiropractic)</label>
+            </value>
+            <value>
+                <fullName>Lifestyle Modification (Exercise, Smoking Cessation, Weight Management)</fullName>
+                <default>false</default>
+                <label>Lifestyle Modification (Exercise, Smoking Cessation, Weight Management)</label>
+            </value>
+            <value>
+                <fullName>Supportive Care</fullName>
+                <default>false</default>
+                <label>Supportive Care</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

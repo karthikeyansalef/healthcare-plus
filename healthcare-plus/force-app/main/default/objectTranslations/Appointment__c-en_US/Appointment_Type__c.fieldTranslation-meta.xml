@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Appointment Type --></label>
+    <name>Appointment_Type__c</name>
+    <picklistValues>
+        <masterLabel>Annual Physical / Wellness Exam</masterLabel>
+        <translation><!-- Annual Physical / Wellness Exam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check-In / Triage</masterLabel>
+        <translation><!-- Check-In / Triage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consultation</masterLabel>
+        <translation><!-- Consultation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Counseling / Behavioral Health</masterLabel>
+        <translation><!-- Counseling / Behavioral Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Visit</masterLabel>
+        <translation><!-- Emergency Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow-Up Visit</masterLabel>
+        <translation><!-- Follow-Up Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging / Radiology (X-ray, MRI, CT, Ultrasound)</masterLabel>
+        <translation><!-- Imaging / Radiology (X-ray, MRI, CT, Ultrasound) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Test / Diagnostic Test</masterLabel>
+        <translation><!-- Lab Test / Diagnostic Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medication Management</masterLabel>
+        <translation><!-- Medication Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Patient Visit</masterLabel>
+        <translation><!-- New Patient Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post-Operative Visit</masterLabel>
+        <translation><!-- Post-Operative Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prenatal Visit</masterLabel>
+        <translation><!-- Prenatal Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preventive Screening</masterLabel>
+        <translation><!-- Preventive Screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedure / Minor Surgery</masterLabel>
+        <translation><!-- Procedure / Minor Surgery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Consultation (Cardiology, Oncology, etc.)</masterLabel>
+        <translation><!-- Specialty Consultation (Cardiology, Oncology, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telehealth / Virtual Visit</masterLabel>
+        <translation><!-- Telehealth / Virtual Visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Therapy Session (Physical, Occupational, Speech)</masterLabel>
+        <translation><!-- Therapy Session (Physical, Occupational, Speech) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaccination / Immunization</masterLabel>
+        <translation><!-- Vaccination / Immunization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walk-In / Same-Day Visit</masterLabel>
+        <translation><!-- Walk-In / Same-Day Visit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
