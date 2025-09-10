@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Task Type --></label>
+    <name>Task_Type__c</name>
+    <picklistValues>
+        <masterLabel>Administrative</masterLabel>
+        <translation><!-- Administrative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Review</masterLabel>
+        <translation><!-- Clinical Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Verification</masterLabel>
+        <translation><!-- Insurance Verification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Follow-up</masterLabel>
+        <translation><!-- Lab Follow-up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Follow-up</masterLabel>
+        <translation><!-- Patient Follow-up --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

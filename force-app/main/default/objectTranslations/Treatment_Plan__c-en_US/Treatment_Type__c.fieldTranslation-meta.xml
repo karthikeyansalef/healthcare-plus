@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Treatment Type --></label>
+    <name>Treatment_Type__c</name>
+    <picklistValues>
+        <masterLabel>Alternative / Complementary Therapy (e.g., Acupuncture, Chiropractic)</masterLabel>
+        <translation><!-- Alternative / Complementary Therapy (e.g., Acupuncture, Chiropractic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemotherapy</masterLabel>
+        <translation><!-- Chemotherapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cognitive Behavioral Therapy (CBT)</masterLabel>
+        <translation><!-- Cognitive Behavioral Therapy (CBT) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dialysis</masterLabel>
+        <translation><!-- Dialysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Care</masterLabel>
+        <translation><!-- Hospice Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immunotherapy</masterLabel>
+        <translation><!-- Immunotherapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lifestyle Modification (Exercise, Smoking Cessation, Weight Management)</masterLabel>
+        <translation><!-- Lifestyle Modification (Exercise, Smoking Cessation, Weight Management) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medication Therapy</masterLabel>
+        <translation><!-- Medication Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nutritional Therapy / Diet Management</masterLabel>
+        <translation><!-- Nutritional Therapy / Diet Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Occupational Therapy</masterLabel>
+        <translation><!-- Occupational Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pain Management</masterLabel>
+        <translation><!-- Pain Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Palliative Care</masterLabel>
+        <translation><!-- Palliative Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Therapy</masterLabel>
+        <translation><!-- Physical Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preventive Care / Screening</masterLabel>
+        <translation><!-- Preventive Care / Screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychotherapy / Counseling</masterLabel>
+        <translation><!-- Psychotherapy / Counseling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radiation Therapy</masterLabel>
+        <translation><!-- Radiation Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rehabilitation</masterLabel>
+        <translation><!-- Rehabilitation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Respiratory Therapy</masterLabel>
+        <translation><!-- Respiratory Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speech Therapy</masterLabel>
+        <translation><!-- Speech Therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supportive Care</masterLabel>
+        <translation><!-- Supportive Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgery</masterLabel>
+        <translation><!-- Surgery --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

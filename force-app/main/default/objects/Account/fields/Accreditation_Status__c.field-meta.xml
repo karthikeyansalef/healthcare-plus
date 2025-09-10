@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accreditation_Status__c</fullName>
+    <label>Accreditation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accredited</fullName>
+                <default>false</default>
+                <label>Accredited</label>
+            </value>
+            <value>
+                <fullName>Pending Accreditation</fullName>
+                <default>false</default>
+                <label>Pending Accreditation</label>
+            </value>
+            <value>
+                <fullName>Accreditation Expired</fullName>
+                <default>false</default>
+                <label>Accreditation Expired</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

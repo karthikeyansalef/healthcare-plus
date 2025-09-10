@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Test Catergotry --></label>
+    <name>Test_Catergotry__c</name>
+    <picklistValues>
+        <masterLabel>Biopsy_Histopathology</masterLabel>
+        <translation><!-- Biopsy_Histopathology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood_Work</masterLabel>
+        <translation><!-- Blood_Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cardiac_Tests</masterLabel>
+        <translation><!-- Cardiac_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endocrine_Hormone_Tests</masterLabel>
+        <translation><!-- Endocrine_Hormone_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imaging_Radiology</masterLabel>
+        <translation><!-- Imaging_Radiology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Immunology_Serology</masterLabel>
+        <translation><!-- Immunology_Serology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Microbiology_Cultures</masterLabel>
+        <translation><!-- Microbiology_Cultures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Molecular_Genetic_Tests</masterLabel>
+        <translation><!-- Molecular_Genetic_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oncology_Marker_Tests</masterLabel>
+        <translation><!-- Oncology_Marker_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other_Specialized_Tests</masterLabel>
+        <translation><!-- Other_Specialized_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Respiratory_Tests</masterLabel>
+        <translation><!-- Respiratory_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saliva_Tests</masterLabel>
+        <translation><!-- Saliva_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stool_Tests</masterLabel>
+        <translation><!-- Stool_Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toxicology_Drug_Screen</masterLabel>
+        <translation><!-- Toxicology_Drug_Screen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urine_Analysis</masterLabel>
+        <translation><!-- Urine_Analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virology_Tests</masterLabel>
+        <translation><!-- Virology_Tests --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Patient__c</members>
+    <members>Doctor__c</members>
+    <members>Insurance__c</members>
+    <members>Hospital__c</members>
+    <members>Beds__c</members>
+    <name>CustomObject</name>
+  </types>
+
+  <types>
+    <members>*</members>
+    <name>Flow</name>
+  </types>
+
+  <types>
+    <members>*</members>
+    <name>FlexiPage</name>
+  </types>
+
+  <!-- Add your actual Permission Set API names here or remove this block -->
+  <!--
+  <types>
+    <members>Healthcare_Clinical_Staff</members>
+    <members>Healthcare_Nursing_Staff</members>
+    <members>Healthcare_Billing_Staff</members>
+    <members>Healthcare_Registration_Staff</members>
+    <members>Healthcare_Laboratory_Staff</members>
+    <name>PermissionSet</name>
+  </types>
+  -->
+
+  <version>61.0</version>
+</Package>

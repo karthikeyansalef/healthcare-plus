@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Insurance Verification Status --></label>
+    <name>Insurance_Verification_Status__c</name>
+    <picklistValues>
+        <masterLabel>Authorization Approved</masterLabel>
+        <translation><!-- Authorization Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Authorization Denied</masterLabel>
+        <translation><!-- Authorization Denied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Authorization Required</masterLabel>
+        <translation><!-- Authorization Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coverage Active</masterLabel>
+        <translation><!-- Coverage Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coverage Inactive</masterLabel>
+        <translation><!-- Coverage Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined to Answer</masterLabel>
+        <translation><!-- Declined to Answer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invalid Information</masterLabel>
+        <translation><!-- Invalid Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needs Follow-Up</masterLabel>
+        <translation><!-- Needs Follow-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Verified</masterLabel>
+        <translation><!-- Not Verified --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verified</masterLabel>
+        <translation><!-- Verified --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

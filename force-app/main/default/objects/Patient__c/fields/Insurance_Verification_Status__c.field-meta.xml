@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Verification_Status__c</fullName>
+    <label>Insurance Verification Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Verified</fullName>
+                <default>false</default>
+                <label>Verified</label>
+            </value>
+            <value>
+                <fullName>Not Verified</fullName>
+                <default>false</default>
+                <label>Not Verified</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Needs Follow-Up</fullName>
+                <default>false</default>
+                <label>Needs Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Invalid Information</fullName>
+                <default>false</default>
+                <label>Invalid Information</label>
+            </value>
+            <value>
+                <fullName>Coverage Active</fullName>
+                <default>false</default>
+                <label>Coverage Active</label>
+            </value>
+            <value>
+                <fullName>Coverage Inactive</fullName>
+                <default>false</default>
+                <label>Coverage Inactive</label>
+            </value>
+            <value>
+                <fullName>Authorization Required</fullName>
+                <default>false</default>
+                <label>Authorization Required</label>
+            </value>
+            <value>
+                <fullName>Authorization Approved</fullName>
+                <default>false</default>
+                <label>Authorization Approved</label>
+            </value>
+            <value>
+                <fullName>Authorization Denied</fullName>
+                <default>false</default>
+                <label>Authorization Denied</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Declined to Answer</fullName>
+                <default>false</default>
+                <label>Declined to Answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

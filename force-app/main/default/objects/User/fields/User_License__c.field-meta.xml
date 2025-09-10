@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_License__c</fullName>
+    <label>User License</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Salesforce Platform</fullName>
+                <default>false</default>
+                <label>Salesforce Platform</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud User</fullName>
+                <default>false</default>
+                <label>Sales Cloud User</label>
+            </value>
+            <value>
+                <fullName>Service Cloud User</fullName>
+                <default>false</default>
+                <label>Service Cloud User</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud User</fullName>
+                <default>false</default>
+                <label>Marketing Cloud User</label>
+            </value>
+            <value>
+                <fullName>Communities User</fullName>
+                <default>false</default>
+                <label>Communities User</label>
+            </value>
+            <value>
+                <fullName>Chatter Free</fullName>
+                <default>false</default>
+                <label>Chatter Free</label>
+            </value>
+            <value>
+                <fullName>Chatter External</fullName>
+                <default>false</default>
+                <label>Chatter External</label>
+            </value>
+            <value>
+                <fullName>Force.com - App Subscription</fullName>
+                <default>false</default>
+                <label>Force.com - App Subscription</label>
+            </value>
+            <value>
+                <fullName>Force.com - Free</fullName>
+                <default>false</default>
+                <label>Force.com - Free</label>
+            </value>
+            <value>
+                <fullName>Identity</fullName>
+                <default>false</default>
+                <label>Identity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
