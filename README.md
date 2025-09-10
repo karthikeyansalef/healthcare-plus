@@ -1,22 +1,84 @@
-<<<<<<< HEAD
-# healthcare-plus
-=======
-# Salesforce DX Project: Next Steps
+# 🏥 Healthcare Plus — Salesforce Admin Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 📌 Overview
+Healthcare Plus is a custom Salesforce application built on **Developer Edition** to simulate hospital and patient management operations.  
+It demonstrates core Salesforce Administrator skills like custom objects, flows, validation rules, reports, dashboards, and role-based permissions.
 
-## How Do You Plan to Deploy Your Changes?
+This project is designed as a **portfolio showcase** for Salesforce Admin roles.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+---
 
-## Configure Your Salesforce DX Project
+## 🔧 Features Implemented
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+### 1. Custom Objects
+- **Patient**: Stores patient demographics (DOB, Gender, Race/Ethnicity, Language).  
+- **Hospital**: Stores facility details and capacity.  
+- **Doctor**: Tracks physicians and specialties.  
+- **Insurance**: Captures insurance providers linked to patients.  
+- **Beds**: Tracks bed assignments and availability.  
+- **Appointments**: Manages scheduling and status of visits.  
+- **Lab Results**: Stores diagnostic tests and pending/critical status.  
+- **Treatment Plans**: Links patients with ongoing care plans.
 
-## Read All About It
+### 2. Automation (Flows)
+- **Admission Flow**: Assigns patients to hospitals/beds if available.  
+- **Billing Flow**: Generates billing records and sends email receipts.  
+- **Discharge Flow**: Validates treatment completion before closing records.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
->>>>>>> b791303 (Initial commit: Healthcare Plus Salesforce metadata)
+### 3. Validation Rules
+- SSN length validation for patients.  
+- Hospital capacity check before new admission.  
+- Discharge date cannot be blank if status = Discharged.
+
+### 4. Reports & Dashboards
+- **Patient Demographics Report** → grouped by Gender, Age.  
+- **Critical Lab Results Report** → pending labs needing review.  
+- **Today's Appointments Report**.  
+- **Healthcare Plus Executive Dashboard** → combines above for quick insights.
+
+### 5. Profiles & Permission Sets
+- Clinical Staff, Nursing Staff, Billing Staff, Registration Staff, Laboratory Staff.  
+- Each has restricted access only to the objects needed for their role.
+
+---
+
+## 📊 Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/Dashboard.png)
+
+### Accounts (Hospitals & Providers)
+![Accounts](docs/screenshots/Accounts-Tab.png)
+
+### Contacts (Doctors)
+![Contacts](docs/screenshots/contacts-Tab.png)
+
+### Patient Detail
+![Patient Detail](docs/screenshots/Patient-Detail.png)
+
+### Patient Related Records
+![Patient Related](docs/screenshots/Patient-Related.png)
+
+### Appointment Record
+![Appointment](docs/screenshots/Appointment.png)
+
+### Lab Result Record
+![Lab Result](docs/screenshots/Labresult.png)
+
+### Reports List
+![Reports](docs/screenshots/Reports-Tab.png)
+
+### Patient Demographics Report
+![Patient Demographics](docs/screenshots/Patientdemographics-report.png)
+
+### Treatment Plan Detail
+![Treatment Plan Detail](docs/screenshots/Treatmentplan-Detail.png)
+
+---
+
+## 🚀 How to Deploy
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/karthikeyansalef/healthcare-plus.git
+   cd healthcare-plus
